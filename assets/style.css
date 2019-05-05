@@ -1,0 +1,990 @@
+html,body 
+{
+    margin: 0;
+    top: 0;
+    height:1005;
+}
+
+/* input[type=text] {
+	float: right; 	
+    width: 0px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px 0px 0px 4px;
+    font-size: 15px;
+    background-color: white;
+    background-image: url(images/search.png);
+    background-position: 14px 14px; 
+    background-repeat: no-repeat;
+    text-indent: 20px;
+    padding: 14px 20px 14px 25px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 45%;
+} */
+
+.sosmed
+{
+    border: 1px solid #f3f6fa;
+    border-right: none;
+    background-color: #f2f2f2;
+    border-radius: 5px 0 0 5px;
+    float: right;
+    padding: 5px 5px 5px 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-top: -370px;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 55px;
+    z-index: 1;
+}
+
+.sosmed:focus
+{
+    width: 40px;
+}
+
+.logo 
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  margin-left: 75px;
+  padding: 7px 0px 7px 0px;
+}
+
+.imageback
+{
+	width:100%;
+	height:750px;
+	background:url(images/friedrice1.jpg);
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	background-size:100% 100%;
+	margin-top:-40px;
+	z-index:-1;
+	position:relative;
+	float:left;
+}
+
+.imageback2
+{
+	width:100%;
+	height:543px;
+	background:url(images/background1.jpg);
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	background-size:100% 100%;
+	margin-top:-4px;
+	z-index:-1;
+	position:relative;
+	float:left;
+}
+
+.imageback3
+{
+	width:100%;
+	height:543px;
+	background:url(images/background1.jpg);
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	background-size:100% 100%;
+	margin-top:-50px;
+	z-index:-1;
+	position:relative;
+	float:left;
+}
+
+/* slide */
+.backblur
+{
+	height:100%;
+	width:100%;
+	opacity: 1;
+	background: rgba(0, 0, 0, 0.7);
+	float:left;
+}
+
+.tdescMakan
+{
+	float: left;
+	width: 100%;
+	padding-top:125px;
+	text-align:center;
+	color: black;
+	font-family: raleway;
+	font-size: 25px;
+}
+
+.strightMakan
+{
+	margin-left:245px;
+	float: left;
+	color: black;
+	font-family: raleway;
+	font-size: 25px;
+}
+
+.toppingMakan
+{
+	width:30px; 
+	height:30px; 
+	float:left; 
+	margin-left: 6px;
+}
+
+.iconMakan
+{
+	width:100px; 
+	height:100px; 
+	clear:left; 
+	float: right; 
+	margin-right: 30px; 
+	margin-top: 20px;
+}
+
+.tdescMinum
+{
+	float: left;
+	width: 100%;
+	padding-top:125px;
+	text-align:center;
+	color: black;
+	font-family: raleway;
+	font-size: 25px;
+}
+
+.strightMinum
+{
+	margin-left:300px;
+	float: left;
+	color: black;
+	font-family: raleway;
+	font-size: 25px;
+}
+
+.iconHeadMinum
+{
+	
+}
+
+.iconMinum
+{
+	width:	30px; 
+	height:	30px; 
+	float: left; 
+	margin-left: 4px;
+}
+
+.iconMinum2
+{
+	width:100px; 
+	height:100px; 
+	float: left; 
+	margin-top: 15px; 
+	margin-left:20px;	
+}
+
+.tdesc2
+{
+	float: left;
+	margin-left:5px;
+	color: black;
+	font-family: raleway;
+	font-size: 25px;
+}
+
+.desc
+{
+	padding:5px 40px 0px 40px;
+	margin-top: -5px;
+	text-align:center;
+	color: black;
+	font-family: raleway;
+	line-height: 1.8;
+	font-size: 15px;
+	clear: left;
+	float: left;
+	width: 100%;
+}
+
+difcolor
+{
+	color: #FFD700;
+}
+
+.behind
+{
+	position: relative;
+	z-index: -1;
+}
+
+.mySlidesMakanan 
+{
+	display:none;
+}
+
+.mySlidesMinuman
+{
+	display:none;
+}
+/* slide */
+
+.nlogo
+{
+    float: left;
+    font-family: Sofia;
+    color: #fee636;
+    padding:11px;
+    font-size: 17px;
+    cursor:pointer;
+}
+
+.header
+{
+    font-family: Candara;
+    height: auto;
+    font-size: 30px;
+    width: 100%;
+    padding: 15px;
+}
+
+.link
+{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17PX;
+  font-family: CANDARA;
+  display: inline-block;
+}
+
+.link:hover
+{
+  background-color: #3498db;
+}
+/* color penting #121618 */
+#logo
+{
+	float: left;
+	overflow: visible;
+	background-color: #343E47;
+	border-radius: 0 0 24px 24px;
+	z-index: 2;
+}
+
+#menu {
+	float: left;
+  overflow: visible;
+  background-color: #343E47;
+	z-index: 2;
+}
+
+/* Style the navbar */
+#navbar {
+	float: left;
+  overflow: visible;
+	z-index: 2;
+}
+
+/* Page content */
+.content {
+  float: left;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content{
+  padding-top: 74px;
+}
+
+.left
+{
+	margin-left: 247px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    font-family: CANDARA;
+
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: CANDARA;
+    margin: 0;
+	cursor: pointer;
+}
+
+.dropdown .dropbtn a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #3498db;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #282923;
+    min-width: 200px;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+i {
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.up {
+    margin-top:4px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.down {
+    margin-bottom:3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.up:hover
+{
+    margin-bottom: 3px;
+    transform: rotateZ(45deg);
+}
+
+.line
+{
+    width: 100%;
+    height: 3px;
+    background-color: #fee636;
+}
+
+.line2
+{
+    background-color: #3498db;
+    height: 5px;
+    width:80px;
+    margin: 15px 0 20px 50px;
+    border-radius: 0px 9px 9px 0px;
+    float: left;
+}
+
+.line3
+{
+	float: left;
+	clear: left;
+    background-color: #3498db;
+    height: 5px;
+    width:80px;
+    margin: 25px 0 20px 0;
+    border-radius: 0px 9px 9px 0px;
+    float: left;
+}
+
+.dot
+{
+    height: 5px;
+  width: 5px;
+  background-color: #ddd7b4;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+
+.dot2
+{
+    height: 5px;
+  width: 5px;
+  background-color: #ddd7b4;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-top: 25px;
+  margin-left: 3px;
+}
+
+.title
+{
+    color: black;
+    font-size: 36px;
+    font-family: Raleway;
+    padding: 20px 0 0 70px;
+}
+
+.color
+{
+    font-family: Calibri;
+    color: #3498db;
+    padding: 0 0 0 3px;
+    float: left;
+    cursor: pointer;
+}
+
+.color:hover
+{
+    color: #343E47;
+}
+
+.adimg
+{
+
+    float: left;
+    padding: 2.5px 0 0 70px;
+}
+
+.homecontentt
+{
+    font-size: 25px;
+    font-family: Raleway;
+}
+
+.homecontent
+{
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-style: dotted;
+    border-bottom-style: none;
+}
+
+.dotbot
+{
+    height: 2px;
+  width: 2px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  float: left;
+  margin-top: 12.5px;
+  margin-left: 3px;
+}
+
+/* read more */
+.rm
+{
+    border-radius: 4px;
+    background-color: #fee636;
+    border: none;
+    font-family: Calibri;
+    text-align: center;
+    font-size: 13px;
+    padding: 3px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0 0 0 320px;
+	z-index: -1;
+}
+
+.rm span
+{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+	color:black;
+}
+
+.rm span:after
+{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.rm:hover span
+{
+    padding-right: 15px;
+}
+
+.rm:hover span:after
+{
+    opacity: 1;
+    right: 0;
+}
+/* read more */
+
+.lain
+{
+    text-decoration: none;
+    color: #3498db;
+    cursor: pointer;
+}
+
+.lain:hover
+{
+    color: black;
+}
+
+.footer
+{
+    background-color: #252425;
+}
+
+.contentfoot
+{
+	text-indent: 50px;
+    color: #3498db;
+    font-size: 18px;
+    font-family: Calibri;
+    margin-top: 3px;
+    clear:left;
+    float: left;
+    margin-right:50px;
+}
+
+.contenttfoot
+{
+    color: white;
+    font-size: 20px;
+    font-family: sofia;
+    margin-left:50px;
+    margin-top: 50px;
+}
+
+.contenttfoot2
+{
+    color: white;
+    font-size: 20px;
+    font-family: sofia;
+    margin-top: 50px;
+}
+
+.copy
+{
+	padding: 7px;
+    float:left;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    font-family: raleway;
+    height:auto;
+    width:100%;
+    background-color: #fee636;
+}
+
+.w
+{
+    color: red;
+    text-decoration: none;
+}
+
+.w:hover
+{
+    color: blue;
+}
+
+.backcolor
+{
+	opacity: 0.5;
+	width :100%;
+	height:750px;
+	background-color: black;
+	float:left;
+}
+
+.backcolor2
+{
+    opacity: 1;
+    padding: 30px 0 30px 0;
+	width :100%;
+	height:auto;
+	background-color: #FFC94D;
+	float:left;
+}
+
+/* yang bulet-bulet*/
+.backcolor3
+{
+	float:left;
+	margin: 80px 0 0 100px;
+	border-radius:50%;
+	transition: transform .2s;
+	width :220px;
+	height:220px;
+	background-color: #121618;
+}
+
+.backcolor3:hover
+{
+	cursor: pointer;
+	transform: scale(1.13);	
+}
+
+.backcolor4
+{
+    padding: 30px 0 30px 0;
+	width :100%;
+    height:auto;
+    color: #fff;
+	float:left;
+}
+
+.textjudulback
+{
+	font-weight: bold;
+	width:100%;
+	text-align:center;
+	text-align:center;
+	padding-top: 20px;
+	font-family:calibri;
+	font-size: 25px;
+	color: black;
+	clear:left;
+	float:left;
+}
+
+.textdescback
+{
+	width: 100%;
+	text-align: center;
+	padding: 10px 0 0 30px;
+	line-height: 1.5;
+	font-family:calibri;
+	font-size: 18px;
+	color: black;
+	float: left;
+	margin-bottom: 60px;
+	position: relative;
+	z-index:-1;
+}
+/* yang bulet-bulet*/
+
+/* hitam background menu baru*/
+.backcolor4
+{
+	width :100%;
+	height:auto;
+	background-color: #121618;
+	float:left;
+	position: inherit;
+	z-index:-1;
+	padding-bottom:50px;
+}
+/* hitam background menu baru*/
+
+/* menu kami */
+.juduldismenu
+{
+	padding-top: 40px;
+	width:100%;
+	font-family: raleway;
+	font-size: 40px;
+	text-align:center;
+	color: #E6E6FA;
+	float:left;
+}
+
+.mmenubar
+{
+	margin-left:420px;
+}
+
+/* image fade */
+
+.container {
+  position: relative;
+  width: 75%;
+}
+
+.image {
+	margin-top: 40px;
+	margin-left:35px;
+  display: block;
+  width: 100%;
+  height: 185px;
+  border-radius: 50%;
+}
+
+.overlay {
+	margin-left:35px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffd700;
+}
+
+.container:hover .overlay {
+	opacity: 0.7;
+}
+
+.addmenu {
+	cursor:pointer;
+  font-family: raleway;
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/* image fade */
+/* menu kami */
+
+/* kontak buka lokasi */
+.marbot
+{
+	margin-bottom:80px;
+}
+
+.judul
+{
+	padding-left:70px;
+	padding-top: 80px;
+	font-family: Sofia;
+	font-size: 27px;
+	color: #5F9EA0;
+	float:left;
+}
+
+.kogambar
+{
+	margin:15px 0 0 70px;
+	clear: left;
+	float:left;
+}
+
+.hov
+{
+	float:left;
+}
+
+.hov:hover
+{
+	cursor:pointer;
+	background-color: white;
+	opacity: 0.3;
+}
+
+.bukgambar
+{
+	margin:50px 0 0 200px;
+	clear:left;
+	float:left;
+}
+
+.lokgambar
+{
+	margin: 25px 0 0 250px;
+	clear: left;
+	float:left;
+}
+
+.kontak
+{
+	padding : 15px 0 0 70px;
+	font-weight:bold;
+	font-family: raleway;
+	font-size: 20px;
+	color: #5F9EA0;
+	clear:left;
+	float:left;
+}
+
+.sosmedkami
+{
+	padding : 15px 0 0 70px;
+	font-family: raleway;
+	font-size: 20px;
+	color: #5F9EA0;
+	clear:left;
+	float:left;
+}
+
+.hub
+{
+	padding : 25px 0 0 5px;
+	float:left;
+	font-size: 20px;
+	font-family: raleway;
+	color: #ffd700;
+}
+
+.strip
+{
+	padding : 10px 0 0 0;
+	float:left;
+	font-size: 40px;
+	font-family: raleway;
+	color: #000;
+}
+
+.buka
+{
+	
+	padding : 15px 0 0 70px;
+	font-weight:bold;
+	font-family: raleway;
+	font-size: 20px;
+	color: #5F9EA0;
+	clear:left;
+	float:left;
+}
+
+.jam
+{
+	padding-left:70px;
+	font-family: raleway;
+	font-size: 20px;
+	color: #5F9EA0;
+	clear:left;
+	float:left;
+}
+
+.lokasi
+{
+	padding : 15px 0 0 70px;
+	font-weight:bold;
+	font-family: raleway;
+	font-size: 20px;
+	color: #5F9EA0;
+	position:relative;
+	z-index:-1;
+	clear:left;
+	float:left;
+}
+
+.tambahanlok
+{
+	padding-left:70px;
+	font-family: raleway;
+	font-size: 20px;
+	color: #5F9EA0;
+	clear:left;
+	float:left;
+}
+/* kontak buka lokasi */
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    display: none; /* Hide all elements by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.menubar {
+	margin-top:15px;
+    border: none;
+    outline: none;
+    background-color: #121618;
+    cursor: pointer;
+	font-family: raleway;
+	font-size: 20px;
+	text-align:center;
+	color: #E6E6FA;
+	float:left;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .menubar:hover {
+    background-color: #121618;
+    color:  #ffd700;
+}
+
+#myInput {
+  background-image: url(images/search.png);
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.mapouter
+{
+    text-align:right;
+    height:500px;
+    width:100%px;
+}
+
+.gmap_canvas 
+{
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:100%px;
+}
